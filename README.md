@@ -34,7 +34,7 @@ This project is intended to be run locally on your desktop.
 | File Type                   | Naming Convention                                        |
 | --------------------------- | -------------------------------------------------------- |
 | HTML | file-description.html        |
-| CSS                    | file-description.ss            |
+| CSS                    | file-description.css            |
 | Images           | file-description.file-type          |
 
 ## Disclaimer:
