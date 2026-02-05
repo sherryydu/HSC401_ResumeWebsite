@@ -1,0 +1,182 @@
+body {
+	background-color:#E7EBE0;
+}
+
+/* Sidebar Stuff */
+
+#sidebar {
+	height: 100%;
+	width:400px;
+	position:fixed;
+	left:0;
+	top:0;
+	padding-top:30px;
+}
+
+#container {
+	width: 300px;
+	height:470px;
+	position:fixed;
+	padding-top: 30px;
+	background-color:#ffffff;
+	margin-left:100px;
+	margin-top:200px;
+	box-shadow: 1px 1px 20px -10px #7d876b;
+}
+
+#play {
+	margin-top:-40px;
+}
+
+#SongName {
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	margin-top:15px;
+	font-weight:700;
+}
+
+#ArtistName {
+	font-family:'Open Sans',sans-serif;
+	text-align:center;
+	margin-top:-10px;
+	font-weight:300;
+}
+
+
+#profilePic {
+	height:316px;
+	width:316px;
+	margin-top:-40px;
+	margin-left:-8px;
+	margin-right:auto;
+	display:block;
+}
+
+#sidebar div { /* Coding for white portion of sidebar */
+	display:block;
+	padding: 8px;
+}
+
+/* Main content customization */
+
+#content {
+	margin-left:530px;
+	font-size:18px;
+	margin-top:75px;
+}
+
+.resumePanels {
+	width:800px;
+	height:auto;
+	background-color:white;
+	box-shadow: 1px 1px 15px -10px #7d876b;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:65px;
+	color:#476930;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	font-size:25px;
+	color:white;
+	background-color:#7DB46CFF;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+h3 {
+	font-family: 'calibri', sans-serif;
+	font-size:18px;
+}
+
+p {
+	font-family:'calibri',sans-serif;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.bullets li {
+	font-family: 'calibri', sans-serif;
+	font-size:18px;
+}
+
+.panel ul, .panel h3 {
+	margin:0;
+	line-height:1.5;
+}
+
+.panel .jobTitle {
+	float: left;
+	margin-left:20px;
+	color:#476930;
+}
+
+.panel .dates {
+	float:right;
+	margin-right: 20px;
+	font-weight:normal;
+	font-style:italic;
+	color:#476930;
+}
+
+.panel .location {
+	margin-left: 20px;
+	font-weight:normal;
+	color:#476930;
+}
+
+ul {
+	padding-bottom:20px;
+	list-style-image: url(../images/LeafBullet.png);
+}
+
+/* Contact Info customization */
+
+#contactInfo li {
+	line-height:2.0;
+	margin-left:20px;
+}
+
+a:link {
+	color:#af1d53; 
+}
+
+a:hover {
+	color:darkgreen;
+}
+
+#contactInfo {
+	list-style:none;
+	margin-left:-15px;
+	font-family:'calibri',sans-serif;
+}
+
+/* Contact bullet point customization. 
+
+Source of icon: Google Icons 
+
+Address icon: https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aplace%3A
+Email icon: https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aemail%3A
+Phone icon: https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aplace%3A
+Website icon: https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Alink%3A */
+
+#address {
+	list-style-image: url(../images/place_black_24dp.png);
+}
+
+#email {
+	list-style-image:url(../images/email_black_24dp.png);
+}
+
+#phone {
+	list-style-image:url(../images/phone_black_24dp.png);
+}
+
+#website {
+	list-style-image:url(../images/link_black_24dp.png);
+}
